@@ -23,6 +23,6 @@ Pangolin
 depth only
 > ./3dreconstruct ../example/71.png
 
-others
-intrinsic and the way to read image could be changed in rgb_visualize.cpp
+## others
+intrinsic and the way to read image could be changed in rgbd\_visualize.cpp
 
