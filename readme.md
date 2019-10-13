@@ -3,7 +3,9 @@
 a tool for visualizing RGB-D image in 3-D
 ## dependency
 opencv
+
 Eigen
+
 Pangolin
 
 ## usage
