@@ -1,19 +1,22 @@
-依赖库
+#RGB_visualization_tool
+---
+a tool for visualizing RGB-D image in 3-D
+###dependency
 opencv
 Eigen
 Pangolin
 
-使用
+###usage
 mkdir build
 cd build
 cmake ..
 make
-./3dreconstruct ([rgb图路径]) [深度图路径]
+./3dreconstruct ([path for rgb image]) [path for depth image]
 
-example
-./3dreconstruct ../exmaple/89.jpg ../example/89.png
-只使用深度图
-./3dreconstruct ../example/90.png
+###example
+depth only
+./3dreconstruct ../example/71.png
 
-内参和图片读取方式可以在rgbd_visualize.cpp修改
+###others
+intrinsic and the way to read image could be changed in rgb_visualize.cpp
 
