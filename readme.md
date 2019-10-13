@@ -8,13 +8,13 @@ Pangolin
 
 ## usage
 > mkdir build
-
+>
 > cd build
-
+>
 > cmake ..
-
+>
 > make
-
+>
 > ./3dreconstruct ([path for rgb image]) [path for depth image]
 
 ## example
